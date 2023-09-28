@@ -1,5 +1,32 @@
 /*
 **********
-
+Page
 **********
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
 /*
+**********
+Header
+**********
+*/
+h1,h2,h3,h4{
+    font-weight: bolder;
+}
+h1{
+    font-size: 40px;
+    color: #e53170;
+}
+header{
+    text-align: center;
+    padding: 30px;
+}
+p{
+    padding-top: 40px;
+}
