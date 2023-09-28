@@ -11,6 +11,11 @@ Page
 body{
     font-family: 'Fredoka', sans-serif;
 }
+.claerfix::after{
+    display: block;
+    content:'';
+    clear: both;
+}
 /*
 **********
 Header
@@ -26,7 +31,35 @@ h1{
 header{
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
 }
 p{
     padding-top: 40px;
+}
+/*
+**********
+Main
+**********
+*/
+.cards> .credit{
+    float:left;
+    padding: 20px;
+    width: calc(75% / 3 - 20px);
+    background-color: #0f0e17;
+    margin:10px;
+}
+.info> h3,h4 {
+    color: #fffffe;
+}
+.photo{
+    float: left;
+    width: 50px;
+}
+.info{
+    float: right;
+    width: calc(100% / 200px);
+}
+.photo img{
+    width: 100%;
+    display: block;
 }
