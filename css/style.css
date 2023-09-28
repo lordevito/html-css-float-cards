@@ -60,7 +60,7 @@ Main
     width: calc(100% / 200px);
 }
 .photo img{
-    width:calc(100% / 150px)
+    max-width:100%;
     display: block;
 }
 a{
