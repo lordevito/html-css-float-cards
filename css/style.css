@@ -44,7 +44,7 @@ Main
 .cards> .credit{
     float:left;
     padding: 20px;
-    width: calc(75% / 3 - 20px);
+    width: calc(100% / 3 - 20px);
     background-color: #0f0e17;
     margin:10px;
 }
@@ -60,6 +60,9 @@ Main
     width: calc(100% / 200px);
 }
 .photo img{
-    width: 100%;
+    width:calc(100% / 150px)
     display: block;
+}
+a{
+    color: #70b9d5;
 }
