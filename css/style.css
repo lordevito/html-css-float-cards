@@ -43,8 +43,8 @@ Main
 */
 .cards> .credit{
     float:left;
-    padding: 20px;
-    max-width: calc(100% / 3 - 20px);
+    padding: 0px;
+    max-width: calc(100% / 3 - 10px);
     background-color: #0f0e17;
     margin:10px;
 }
@@ -60,7 +60,7 @@ Main
     width: calc(100% / 200px);
 }
 .photo img{
-    max-width:100%;
+    
     display: block;
 }
 a{
